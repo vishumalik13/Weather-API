@@ -12,3 +12,5 @@ w=wdict["current"]["temp_c"]
 engine=pyttsx3.init()
 engine.say(f"the current weather in {city} is {w} degree")
 engine.runAndWait()
+
+print("hello")
